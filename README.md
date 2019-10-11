@@ -7,7 +7,7 @@ It is [like us] a work in progress and open to suggestion and adaptation.
 
 ## Fundamentals
 
-It's important that we openly discuss and share the work we have done, so that we learn off oneanother, share problems and solutions. Possibly all of the best practices revolve around this fundamental.
+It's important that we openly discuss and share the work we have done, so that we learn off oneanother, share problems and solutions. Possibly all of the best practices revolve around good communication
 
 
 ## Code less
@@ -31,3 +31,13 @@ Coding should *not* take up the majority of your time. And the good news is ther
 1. Epics can be big, and so should be broken down. This means many people on the team can be working on the epic at the same time. As well as making the task less daunting.
 
 2. When an epic is to be tested, it maybe required to create a temporary branch to test all the features of the epic in one place. This will allow the stakeholder to provide feedback, as well as QA testers the ability to test the feature in a relatively stable environment.
+
+## Commit Messages
+
+Commit messages provide a valuable summary of the code changes made. A good commit message will look like:
+
+> fix(homepage): change api request, #1337
+
+- **semantic commit message**: starts with fix, feat, test, style, docs, refactor
+- **issue number**: appears at the end of the message and provides a way to track the change
+- **message**: is short and concise
