@@ -12,7 +12,7 @@ It's important that we openly discuss and share the work we have done, so that w
 
 ## Code less
 
-Coding should *not* take up the majority of your time. And the good news is there's lots to do besides.
+Coding should *not* take up all of your time. And the good news is there's lots to do besides.
 
 1. Inspect tickets: Have a look at the tickets which are new or are being worked on, if it's a bug try to replicate it and let everybody know #metoo. Add your comments, emoji or even just beautify the markdown if it's not already.
 2. Review Pull Requests: Perhaps before you take on another ticket, checkout open Pull Requests and see if you understand what's going on, it not ask. If you do, and your happy, give it your stamp of approval.
