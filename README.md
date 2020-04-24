@@ -33,7 +33,7 @@ This flow might not make sense for all projects which dont have a manual QA func
 
 ## Creating Feature Branches
 
-1. Use semver in the title e.g. `feat(sharing): allow for users"
+1. Use semver in the title e.g. `feat(sharing): allow for users`
    - this helps us generate the changelog
 2. Include the `fixes #1337` in the body so that tickets can be automatically closed.
 3. A concise and clear descriptions along with any concerns you have over your changes will help in the review stage.
