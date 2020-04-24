@@ -19,12 +19,29 @@ Coding should *not* take up the majority of your time. And the good news is ther
 3. Read More: Try out new things and make suggestions to the team.
 
 
-## Creating PR's
+## Branching Model: Git Flow
 
-1. Writing down on the ticket/PR what the changes made are doing. This helps reduce confusion
-2. Keep PR's size to a minimum to ensure that it's easy for other members to read. It might be tempting to refactor parts of the code base. But that often makes the PR harder to understand and actual functionality changes can be hard to pick out.
-3. Request PR reviews from people from the team (Github recommends people which is a great place to start)
+Follow the [Git-Flow branching model](https://nvie.com/posts/a-successful-git-branching-model/)
 
+- Master is always production deployable
+- Staging is the next release, and made available for regression tests
+- Dev is the culmination of a sprint
+- Feature branches are based off dev
+
+This flow might not make sense for all projects which dont have a manual QA function.
+
+
+## Creating Feature Branches
+
+1. Use semver in the title e.g. `feat(sharing): allow for users"
+ - this helps us generate the changelog
+2. Include the `fixes #1337` in the body so that tickets can be automatically closed.
+3. A concise and clear descriptions along with any concerns you have over your changes will help in the review stage.
+4. Keep PR's size to a minimum to ensure that it's easy for other members to digest.
+5. Dont refactor (at least try not to): KISS (keep it simple stupid), those changes add complexity and attract bugs.
+    - Create another PR if you want to refactor something.
+6. Request PR reviews from people on the team (Github recommends people which is a great place to start)
+7. Once approved please [Squash Merge](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges#squash-and-merge-your-pull-request-commits) this will again make it easier to read the changelogs.
 
 ## Working on Epic's
 
