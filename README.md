@@ -31,7 +31,7 @@ Follow the [Git-Flow branching model](https://nvie.com/posts/a-successful-git-br
 This flow might not make sense for all projects which dont have a manual QA function.
 
 
-## Creating Feature Branches
+## Feature Branches
 
 1. Use semver in the title e.g. `feat(sharing): allow for users`
    - this helps us generate the changelog
