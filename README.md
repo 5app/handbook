@@ -38,8 +38,8 @@ This flow might not make sense for all projects which dont have a manual QA func
 2. Include the `fixes #1337` in the body so that tickets can be automatically closed.
 3. A concise and clear descriptions along with any concerns you have over your changes will help in the review stage.
 4. Keep PR's size to a minimum to ensure that it's easy for other members to digest.
-5. Dont refactor (at least try not to): KISS (keep it simple stupid), those changes add complexity and attract bugs.
-    - Create another PR if you want to refactor something.
+5. Dont refactor (at least try not to): KISS (keep it simple stupid), avoid temptation of refactoring your making it harder on the reviewer and potentially adding new bugs.
+    - Create another PR especially for refactoring.
 6. Request PR reviews from people on the team (Github recommends people which is a great place to start)
 7. Once approved please [Squash Merge](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges#squash-and-merge-your-pull-request-commits) this will again make it easier to read the changelogs.
 
